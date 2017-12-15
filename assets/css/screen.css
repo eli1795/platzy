@@ -45,7 +45,7 @@ a:active, a:hover { outline: 0; }
 h1 { font-size: 2em; margin: 0.67em 0; }
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: 700; }
-dfn { font-style: italic; }
+dfn { font-style:arial; }
 hr {
    -moz-box-sizing: content-box;
    box-sizing: content-box;
@@ -220,6 +220,7 @@ h1 {
     font-size: 5rem;
     letter-spacing: -2px;
     text-indent: -3px;
+	font-style:Arial Narrow;
 }
 
 h2 {
@@ -472,6 +473,8 @@ margin on the iframe, cause it breaks stuff. */
 .vertical {
     display: table-cell;
     vertical-align: middle;
+	font-style:Arial Narrow;
+	
 }
 
 /* Wraps the main content & footer */
@@ -866,12 +869,14 @@ body.nav-opened .nav {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
+    
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 2em;
     letter-spacing: -1px;
-    font-weight: 700;
-    font-family: "Open Sans", sans-serif;
-    color: #fff;
+    font-weight: 100;
+    font-family: Arial;
+    color:burlywood;
+    
 }
 
 .page-description {
